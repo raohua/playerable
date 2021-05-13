@@ -1,0 +1,549 @@
+{
+    "version": "1.8.0",
+    "packageId": "com.FunPlus.KZ2",
+    "pgServer": "EU",
+    "unity": {
+        "scripts": {
+            "excludes": [
+                "**/Editor/",
+                "**/Luna/RuntimeScripts/"
+            ],
+            "useMSBuild": true,
+            "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
+            "msbuildWin64": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe",
+            "externalSources": [],
+            "externalJSLibraries": [
+                "./Assets/Plugins/LunaSDKTest.js"
+            ],
+            "scriptingDefines": []
+        },
+        "assets": {
+            "export": [],
+            "excludes": [
+                "**/Editor/"
+            ],
+            "includes": []
+        },
+        "scenes": [
+            "Assets/PA_KickZombies2/Scene/KickZombies2Scene.unity"
+        ],
+        "startupScene": 0,
+        "alphabeticalScenesOrder": false,
+        "packages": {
+            "default": {
+                "applicationName": "",
+                "iosLink": "https://apps.apple.com/app/state-of-survival-walking-dead/id1452474937",
+                "androidLink": "https://play.google.com/store/apps/details?id=com.kingsgroup.sos",
+                "orientation": "unspecified",
+                "languages": [
+                    "en"
+                ]
+            },
+            "develop": {
+                "email": "",
+                "signature": ""
+            },
+            "ironsource": {
+                "applicationGenre": "",
+                "versionName": "",
+                "apiType": 0,
+                "playableMode": 0,
+                "packageType": 0
+            },
+            "facebook": {
+                "assetID": "",
+                "packageType": 0
+            }
+        },
+        "preloader": {
+            "active": true,
+            "icon": "",
+            "background": ""
+        },
+        "autoInstantiatePrefabs": true,
+        "removeShadows": false,
+        "minify": true,
+        "compressResources": true,
+        "compressType": 0,
+        "eliminateDeadCode": false,
+        "genericCheck": false,
+        "disableAntiAliasing": false,
+        "forceStableRandomSeed": false,
+        "roots": [
+            "UnityEngine.Physics",
+            "UnityEngine.EventSystems.PointerEventData",
+            "UnityEngine.UI.GraphicRaycaster",
+            "LunaUnity.Objects.Handlers.Base",
+            "UnityEngine.UI.RawImage",
+            "UnityEngine.UI.Image",
+            "UnityEngine.UI.Text",
+            "UnityEngine.CanvasGroup",
+            "Luna.Unity.Playable",
+            "UnityEngine.Time",
+            "UnityEngine.LayerMask",
+            "UnityEngine.SceneManagement.LoadSceneMode",
+            "UnityEngine.LightmapSettings",
+            "UnityEngine.EventSystems.IPointerEnterHandler",
+            "UnityEngine.EventSystems.IPointerExitHandler",
+            "UnityEngine.EventSystems.IPointerDownHandler",
+            "UnityEngine.EventSystems.IPointerUpHandler",
+            "UnityEngine.EventSystems.IPointerClickHandler",
+            "UnityEngine.EventSystems.IScrollHandler",
+            "UnityEngine.EventSystems.IBeginDragHandler",
+            "UnityEngine.EventSystems.IDragHandler",
+            "UnityEngine.EventSystems.IEndDragHandler",
+            "UnityEngine.RigidbodyConstraints2D",
+            "UnityEngine.RigidbodyType2D",
+            "UnityEngine.Collision2D",
+            "UnityEngine.Rendering.CompareFunction",
+            "Luna.Unity.DTO.UnityEngine.Assets.Shader+ShaderParameterType",
+            "UnityEngine.Rendering.CullMode",
+            "UnityEngine.Rendering.BlendMode",
+            "UnityEngine.Rendering.BlendOp",
+            "UnityEngine.TextAsset",
+            "UnityEngine.Rendering.StencilOp",
+            "TMPro._HorizontalAlignmentOptions",
+            "TMPro.TagUnits"
+        ],
+        "excludedModules": [],
+        "stubberDataList": [],
+        "stubberData": {
+            "SDKName": "",
+            "Namespace": "",
+            "className": "",
+            "buildPlatform": "",
+            "enabled": false
+        },
+        "playerPrefs": true
+    },
+    "assets": {
+        "rules": {
+            "texture": {
+                "default": {
+                    "maxWidth": 256,
+                    "maxHeight": 256,
+                    "format": "png8",
+                    "compression": "quantSize",
+                    "quality": 80,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": [
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "jpeg",
+                        "compression": "none",
+                        "quality": 20,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/bg.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk1.png"
+                    },
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/items.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_L1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_L2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_L_D1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_L_D2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_U1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Female/femaleWalk_U2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "none",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_L1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_L2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_L_D1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_L_D2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_U1.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Male/maleWalk_U2.png"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieA1.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieA2.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieA3.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieA4.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieA5.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieB1.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "default",
+                        "compression": "none",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieB2.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieB3.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieB4.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieB5.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieC1.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieC2.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieC3.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieC4.tga"
+                    },
+                    {
+                        "maxWidth": 128,
+                        "maxHeight": 128,
+                        "format": "png8",
+                        "compression": "quantSize",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/Sequencerame/Zomby/zombieC5.tga"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/112323/GF_180.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PA_KickZombies2/UI/112323/mask_194.png"
+                    }
+                ]
+            },
+            "sound": {
+                "default": {
+                    "channels": 1,
+                    "bitrate": 0,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": []
+            },
+            "font": {
+                "default": {
+                    "data": {
+                        "alphabet": " §1234567890-=qwertyuiop[]asdfghjkl;'\\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"|~ZXCVBNM<>?",
+                        "size": 64,
+                        "textureWidth": 1024,
+                        "textureHeight": 1024
+                    }
+                },
+                "overrides": []
+            },
+            "shader": {
+                "default": {
+                    "data": {
+                        "programs": [],
+                        "passes": [],
+                        "vp": [],
+                        "fp": []
+                    }
+                },
+                "overrides": []
+            },
+            "meshes": {
+                "default": {
+                    "halfPrecision": false
+                },
+                "overrides": []
+            },
+            "animations": {
+                "default": {
+                    "halfPrecision": false
+                },
+                "overrides": []
+            }
+        }
+    }
+}
